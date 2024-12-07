@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_answares",
+  "info": {
+    "displayName": "Answare",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "displayName": "row",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.row"
+    }
+  }
+}

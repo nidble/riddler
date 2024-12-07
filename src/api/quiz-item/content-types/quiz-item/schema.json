@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quiz_items",
+  "info": {
+    "singularName": "quiz-item",
+    "pluralName": "quiz-items",
+    "displayName": "QuizItem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "quiz": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::quiz.quiz",
+      "inversedBy": "quiz_items"
+    },
+    "description": {
+      "type": "string"
+    },
+    "module_item": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::module-item.module-item"
+    },
+    "answerId": {
+      "type": "string"
+    },
+    "points": {
+      "type": "integer"
+    }
+  }
+}

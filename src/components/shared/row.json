@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_rows",
+  "info": {
+    "displayName": "row",
+    "icon": "layer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "isCorrect": {
+      "type": "boolean"
+    },
+    "points": {
+      "type": "integer"
+    },
+    "action": {
+      "type": "json"
+    }
+  }
+}
